@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>结果</title>
+    <style type="text/css">
+        .all {
+            width: 800px;
+            min-height: 800px;
+            margin: 30px auto;
+            border: 1px solid brown;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+    {% load static %}
+</head>
+
+<body>
+    <div class="all">
+        <h1>结果展示</h1>
+        <img src="{% static 'capdemo/images/' %}{{filename}}" />
+        <p><i>图像质量</i>:<b>{{im_quality}}</b>(分数越小质量越高)</p>
+        {% if no_caption %}
+        <p>图像质量过低，不适于图像描述。详情见<a href="https://learnopencv.com/image-quality-assessment-brisque/" target="_blank">了解更多</a></p>
+        {% else %}
+        <p>{{caption_zh}}</p>
+        <p>{{caption_en}}</p>
+        {% endif %}
+    </div>
+</body>
+
+</html>
