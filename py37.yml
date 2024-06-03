@@ -169,4 +169,3 @@ dependencies:
     - webencodings==0.5.1
     - widgetsnbextension==3.5.1
     - wrapt==1.12.1
-# prefix: /home/suheng/anaconda3/envs/convcap
