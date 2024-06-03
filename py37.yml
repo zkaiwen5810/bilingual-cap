@@ -11,6 +11,7 @@ channels:
   # - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
   # - https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
   - defaults
+  - https://conda.anaconda.org/conda-forge/
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=1_gnu
