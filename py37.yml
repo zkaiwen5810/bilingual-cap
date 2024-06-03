@@ -1,15 +1,15 @@
 name: capdemo
 channels:
-  - https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-  - https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/
-  - https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/
-  - https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/
-  - https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/
-  - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
-  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+  # - https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge
+  # - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+  # - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  # - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  # - https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/
+  # - https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/
+  # - https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/
+  # - https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/
+  # - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+  # - https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
