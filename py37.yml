@@ -160,7 +160,7 @@ dependencies:
     - srsly==1.0.5
     - terminado==0.9.1
     - testpath==0.4.4
-    - thinc==7.4.4
+    - thinc==7.4.5
     - tifffile==2020.11.18
     - toml==0.10.2
     - torchtext==0.8.0
