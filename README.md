@@ -24,3 +24,6 @@ A bilingual caption model
 8. 遇到非自然图像，会拒绝描述。  
 ![图像质量评估](assets/image-qualitity.png)  
 9. 阈值可以自行修改，在文件”capdemo/views.py”的26行，我暂时把阈值设为50.0，因为”TID2008”数据集里图像的质量在0-100之间，但在实际情况中会出现大于100的情况。你们可以自行斟酌更改，值越小，过滤的图片越多。一般最小值要大于30，因为大部分自然场景的图像得分在20-30之间。
+---
+**更新** 2024/06/06  
+10. 安装`image-quality`，输入`pip install image-quality`。如果发现再build wheel的时候失败，一般是因为conda自带的c/c++链接器与OS不兼容，删除conda环境的c/c++链接器即可，参考[unknown type [0x13] section '.relr.dyn'](https://blog.csdn.net/ONE_SIX_MIX/article/details/129983184)
